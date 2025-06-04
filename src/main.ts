@@ -7,6 +7,7 @@ const links = document.querySelector<HTMLDivElement>('#links')!;
 const link = document.querySelector<HTMLAnchorElement>('#link')!;
 const qrCode = document.querySelector<HTMLImageElement>('#qrCode')!;
 
+
 const params = new URLSearchParams(window.location.search);
 const id = params.get('id');
 
