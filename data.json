@@ -48,6 +48,106 @@
         }
       ],
       "QRcode": "/images/users/emilia/emiliaQRcode.png"
+    },
+
+    {
+      "id": "2",
+      "name": "Tereza Oliveira",
+      "profilePicture": "/images/users/tereza/terezaProfile .png",
+
+      "background": [
+        { "image": "/images/users/tereza/terezaBackground.jpg" },
+        { "color": "#FFFFFF99" }
+      ],
+      "linkStyle": [
+        { "defaultColor": "#3AB74D" },
+        { "hoverColor": "#159128" },
+        { "linkColor": "#F1F1F1" },
+        { "borderRadius": "0px" }
+      ],
+      "links": [
+        {
+          "title": "Blog",
+          "url": "a",
+          "icon": "images/icons/blog.svg"
+        },
+        {
+          "title": "GitLab",
+          "url": "a",
+          "icon": "/images/icons/gitlab.svg"
+        },
+        {
+          "title": "GitHub",
+          "url": "a",
+          "icon": "/images/icons/github.svg"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "a",
+          "icon": "/images/icons/linkedin.svg"
+        },
+        {
+          "title": "Instagram",
+          "url": "a",
+          "icon": "/images/icons/instagram.svg"
+        },
+        {
+          "title": "Enviar um e-mail",
+          "url": "a",
+          "icon": "/images/icons/email.svg"
+        }
+      ],
+      "QRcode": "/images/users/tereza/terezaQRcode.png"
+    },
+    
+    {
+      "id": "3",
+      "name": "Marco Andrade",
+      "profilePicture": "/images/users/marco/marcoProfile.png",
+
+      "background": [
+        { "image": "" },
+        { "color": "#EB5E67" }
+      ],
+      "linkStyle": [
+        { "defaultColor": "#F1F1F1" },
+        { "hoverColor": "#D8565E" },
+        { "linkColor": "#010101" },
+        { "borderRadius": "16px" }
+      ],
+      "links": [
+        {
+          "title": "Blog",
+          "url": "a",
+          "icon": "images/icons/blog.svg"
+        },
+        {
+          "title": "GitLab",
+          "url": "a",
+          "icon": "/images/icons/gitlab.svg"
+        },
+        {
+          "title": "GitHub",
+          "url": "a",
+          "icon": "/images/icons/github.svg"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "a",
+          "icon": "/images/icons/linkedin.svg"
+        },
+        {
+          "title": "Instagram",
+          "url": "a",
+          "icon": "/images/icons/instagram.svg"
+        },
+        {
+          "title": "Enviar um e-mail",
+          "url": "a",
+          "icon": "/images/icons/email.svg"
+        }
+      ],
+      "QRcode": "/images/users/marco/marcoQRcode.png"
     }
   ]
 }
