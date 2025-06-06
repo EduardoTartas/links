@@ -6,6 +6,7 @@ const profileName = document.querySelector<HTMLHeadingElement>('#profileName')!;
 const qrCode = document.querySelector<HTMLImageElement>('#qrCode')!;
 const link = document.querySelector<HTMLAnchorElement>('.link')!;
 
+
 const params = new URLSearchParams(window.location.search);
 const id = params.get('id');
 
