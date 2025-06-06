@@ -1,52 +1,53 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": "1",
+      "name": "Emília Andrade",
+      "profilePicture": "/images/users/emilia/emiliaProfile.png",
+
+      "background": [
+        { "image": "/images/users/emilia/emiliaBackground.jpg" },
+        { "color": "#FFFFFF99" }
+      ],
+      "linkStyle": [
+        { "defaultColor": "#6DA9F3" },
+        { "hoverColor": "#3B81D8" },
+        { "linkColor": "#F1F1F1" },
+        { "borderRadius": "4px" }
+      ],
+      "links": [
         {
-            "id": "1",
-            "name": "Emília Andrade",
-            "profilePicture": "http://localhost:5173/public/images/users/emilia/emiliaProfile.png",
-            "background": [
-                { "image": "http://localhost:5173/public/images/users/emilia/emiliaBackground.jpg" },
-                { "color": "#FFFFFF99" }
-            ],
-            "linkStyle": [
-                { "defaultColor": "#6DA9F3" },
-                { "hoverColor": "#3B81D8" },
-                { "linkColor": "#F1F1F1" },
-                { "borderRadius": "4px" }
-            ],
-            "links": [
-                {
-                    "title": "Blog",
-                    "url": "a",
-                    "icon": "http://localhost:5173/public/images/icons/blog.svg"
-                },
-                {
-                    "title": "GitLab",
-                    "url": "a",
-                    "icon": "http://localhost:5173/public/images/icons/gitlab.svg"
-                },
-                {
-                    "title":"GitHub",
-                    "url":"a",
-                    "icon":"http://localhost:5173/public/images/icons/github.svg"
-                },
-                {
-                    "title":"LinkedIn",
-                    "url":"a",
-                    "icon":"http://localhost:5173/public/images/icons/linkedin.svg"
-                },
-                {
-                    "title":"Instagram",
-                    "url":"a",
-                    "icon":"http://localhost:5173/public/images/icons/instagram.svg"
-                },
-                {
-                    "title":"Enviar um e-mail",
-                    "url":"a",
-                    "icon":"http://localhost:5173/public/images/icons/email.svg"
-                }
-            ],
-            "QRcode":"http://localhost:5173/public/images/users/emilia/emiliaQRcode.png"
+          "title": "Blog",
+          "url": "a",
+          "icon": "images/icons/blog.svg"
+        },
+        {
+          "title": "GitLab",
+          "url": "a",
+          "icon": "/images/icons/gitlab.svg"
+        },
+        {
+          "title": "GitHub",
+          "url": "a",
+          "icon": "/images/icons/github.svg"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "a",
+          "icon": "/images/icons/linkedin.svg"
+        },
+        {
+          "title": "Instagram",
+          "url": "a",
+          "icon": "/images/icons/instagram.svg"
+        },
+        {
+          "title": "Enviar um e-mail",
+          "url": "a",
+          "icon": "/images/icons/email.svg"
         }
-    ]
+      ],
+      "QRcode": "/images/users/emilia/emiliaQRcode.png"
+    }
+  ]
 }
