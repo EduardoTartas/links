@@ -1,153 +1,304 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "name": "Emília Andrade",
-      "profilePicture": "/images/users/emilia/emiliaProfile.png",
-
-      "background": [
-        { "image": "/images/users/emilia/emiliaBackground.jpg" },
-        { "color": "#FFFFFF99" }
-      ],
-      "linkStyle": [
-        { "defaultColor": "#6DA9F3" },
-        { "hoverColor": "#3B81D8" },
-        { "linkColor": "#F1F1F1" },
-        { "borderRadius": "4px" }
-      ],
-      "links": [
+    "users": [
         {
-          "title": "Blog",
-          "url": "a",
-          "icon": "images/icons/blog.svg"
+            "id": "1",
+            "name": "Emília Andrade",
+            "profilePicture": "/images/users/emilia/emiliaProfile.png",
+            "background": {
+                "image": "/images/users/emilia/emiliaBackground.jpg",
+                "color": "#FFFFFF99",
+                "gradient": ""
+            },
+            "linkStyle": {
+                "defaultColor": "#6DA9F3",
+                "hoverColor": "#3B81D8",
+                "linkColor": "#F1F1F1",
+                "borderRadius": "4px",
+                "boderHover": false
+            },
+            "links": [
+                {
+                    "title": "Blog",
+                    "url": "a",
+                    "icon": "/images/icons/blog.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "url": "a",
+                    "icon": "/images/icons/gitlab.svg"
+                },
+                {
+                    "title": "GitHub",
+                    "url": "a",
+                    "icon": "/images/icons/github.svg"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "a",
+                    "icon": "/images/icons/linkedin.svg"
+                },
+                {
+                    "title": "Instagram",
+                    "url": "a",
+                    "icon": "/images/icons/instagram.svg"
+                },
+                {
+                    "title": "Enviar um e-mail",
+                    "url": "a",
+                    "icon": "/images/icons/email.svg"
+                }
+            ],
+            "qrCode": "/images/users/emilia/emiliaQRcode.png"
         },
         {
-          "title": "GitLab",
-          "url": "a",
-          "icon": "/images/icons/gitlab.svg"
+            "id": "2",
+            "name": "Tereza Oliveira",
+            "profilePicture": "/images/users/tereza/terezaProfile.png",
+            "background": {
+                "image": "/images/users/tereza/terezaBackground.jpg",
+                "color": "#FFFFFF99",
+                "gradient": ""
+            },
+            "linkStyle": {
+                "defaultColor": "#3AB74D",
+                "hoverColor": "#159128",
+                "linkColor": "#F1F1F1",
+                "borderRadius": "0px",
+                "boderHover": false
+            },
+            "links": [
+                {
+                    "title": "Blog",
+                    "url": "a",
+                    "icon": "images/icons/blog.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "url": "a",
+                    "icon": "/images/icons/gitlab.svg"
+                },
+                {
+                    "title": "GitHub",
+                    "url": "a",
+                    "icon": "/images/icons/github.svg"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "a",
+                    "icon": "/images/icons/linkedin.svg"
+                },
+                {
+                    "title": "Instagram",
+                    "url": "a",
+                    "icon": "/images/icons/instagram.svg"
+                },
+                {
+                    "title": "Enviar um e-mail",
+                    "url": "a",
+                    "icon": "/images/icons/email.svg"
+                }
+            ],
+            "qrCode": "/images/users/tereza/terezaQRcode.png"
         },
         {
-          "title": "GitHub",
-          "url": "a",
-          "icon": "/images/icons/github.svg"
+            "id": "3",
+            "name": "Marco Andrade",
+            "profilePicture": "/images/users/marco/marcoProfile.png",
+            "background": {
+                "image": "",
+                "color": "#EB5E67",
+                "gradient": ""
+            },
+            "linkStyle": {
+                "defaultColor": "#F1F1F1",
+                "hoverColor": "#D8565E",
+                "linkColor": "#010101",
+                "borderRadius": "16px",
+                "boderHover": true
+            },
+            "links": [
+                {
+                    "title": "Blog",
+                    "url": "a",
+                    "icon": "images/icons/blog.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "url": "a",
+                    "icon": "/images/icons/gitlab.svg"
+                },
+                {
+                    "title": "GitHub",
+                    "url": "a",
+                    "icon": "/images/icons/github.svg"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "a",
+                    "icon": "/images/icons/linkedin.svg"
+                },
+                {
+                    "title": "Instagram",
+                    "url": "a",
+                    "icon": "/images/icons/instagram.svg"
+                },
+                {
+                    "title": "Enviar um e-mail",
+                    "url": "a",
+                    "icon": "/images/icons/email.svg"
+                }
+            ],
+            "qrCode": "/images/users/marco/marcoQRcode.png"
         },
         {
-          "title": "LinkedIn",
-          "url": "a",
-          "icon": "/images/icons/linkedin.svg"
+            "id": "4",
+            "name": "José Silva",
+            "profilePicture": "/images/users/jose/joseProfile.png",
+            "background": {
+                "image": "",
+                "color": "#FFCE56",
+                "gradient": ""
+            },
+            "linkStyle": {
+                "defaultColor": "#FFFFFF",
+                "hoverColor": "#F1B924",
+                "linkColor": "#010101",
+                "borderRadius": "32px",
+                "boderHover": false
+            },
+            "links": [
+                {
+                    "title": "Blog",
+                    "url": "a",
+                    "icon": "images/icons/blog.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "url": "a",
+                    "icon": "/images/icons/gitlab.svg"
+                },
+                {
+                    "title": "GitHub",
+                    "url": "a",
+                    "icon": "/images/icons/github.svg"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "a",
+                    "icon": "/images/icons/linkedin.svg"
+                },
+                {
+                    "title": "Instagram",
+                    "url": "a",
+                    "icon": "/images/icons/instagram.svg"
+                },
+                {
+                    "title": "Enviar um e-mail",
+                    "url": "a",
+                    "icon": "/images/icons/email.svg"
+                }
+            ],
+            "qrCode": "/images/users/jose/joseQRcode.png"
         },
         {
-          "title": "Instagram",
-          "url": "a",
-          "icon": "/images/icons/instagram.svg"
+            "id": "5",
+            "name": "Eliana Silva",
+            "profilePicture": "/images/users/eliana/elianaProfile.png",
+            "background": {
+                "image": "",
+                "color": "",
+                "gradient": "linear-gradient(179.74deg, #535155 24.93%, #B7B2BB 99.77%)"
+            },
+            "linkStyle": {
+                "defaultColor": "#535155",
+                "hoverColor": "#222124",
+                "linkColor": "#FFFFFF",
+                "borderRadius": "4px",
+                "boderHover": false
+            },
+            "links": [
+                {
+                    "title": "Blog",
+                    "url": "a",
+                    "icon": "images/icons/blog.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "url": "a",
+                    "icon": "/images/icons/gitlab.svg"
+                },
+                {
+                    "title": "GitHub",
+                    "url": "a",
+                    "icon": "/images/icons/github.svg"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "a",
+                    "icon": "/images/icons/linkedin.svg"
+                },
+                {
+                    "title": "Instagram",
+                    "url": "a",
+                    "icon": "/images/icons/instagram.svg"
+                },
+                {
+                    "title": "Enviar um e-mail",
+                    "url": "a",
+                    "icon": "/images/icons/email.svg"
+                }
+            ],
+            "qrCode": "/images/users/eliana/elianaQRcode.png"
         },
         {
-          "title": "Enviar um e-mail",
-          "url": "a",
-          "icon": "/images/icons/email.svg"
+            "id": "6",
+            "name": "Eliene Silva",
+            "profilePicture": "/images/users/eliene/elieneProfile.png",
+            "background": {
+                "image": "",
+                "color": "",
+                "gradient": "linear-gradient(180deg, #76A0B8 0%, #69E2C3 100%)"
+            },
+            "linkStyle": {
+                "defaultColor": "transparent",
+                "hoverColor": "#222124",
+                "linkColor": "#FFFFFF",
+                "borderRadius": "32px",
+                "boderHover": false
+            },
+            "links": [
+                {
+                    "title": "Blog",
+                    "url": "a",
+                    "icon": "images/icons/blog.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "url": "a",
+                    "icon": "/images/icons/gitlab.svg"
+                },
+                {
+                    "title": "GitHub",
+                    "url": "a",
+                    "icon": "/images/icons/github.svg"
+                },
+                {
+                    "title": "LinkedIn",
+                    "url": "a",
+                    "icon": "/images/icons/linkedin.svg"
+                },
+                {
+                    "title": "Instagram",
+                    "url": "a",
+                    "icon": "/images/icons/instagram.svg"
+                },
+                {
+                    "title": "Enviar um e-mail",
+                    "url": "a",
+                    "icon": "/images/icons/email.svg"
+                }
+            ],
+            "qrCode": "/images/users/eliene/elieneQRcode.png"
         }
-      ],
-      "QRcode": "/images/users/emilia/emiliaQRcode.png"
-    },
-
-    {
-      "id": "2",
-      "name": "Tereza Oliveira",
-      "profilePicture": "/images/users/tereza/terezaProfile .png",
-
-      "background": [
-        { "image": "/images/users/tereza/terezaBackground.jpg" },
-        { "color": "#FFFFFF99" }
-      ],
-      "linkStyle": [
-        { "defaultColor": "#3AB74D" },
-        { "hoverColor": "#159128" },
-        { "linkColor": "#F1F1F1" },
-        { "borderRadius": "0px" }
-      ],
-      "links": [
-        {
-          "title": "Blog",
-          "url": "a",
-          "icon": "images/icons/blog.svg"
-        },
-        {
-          "title": "GitLab",
-          "url": "a",
-          "icon": "/images/icons/gitlab.svg"
-        },
-        {
-          "title": "GitHub",
-          "url": "a",
-          "icon": "/images/icons/github.svg"
-        },
-        {
-          "title": "LinkedIn",
-          "url": "a",
-          "icon": "/images/icons/linkedin.svg"
-        },
-        {
-          "title": "Instagram",
-          "url": "a",
-          "icon": "/images/icons/instagram.svg"
-        },
-        {
-          "title": "Enviar um e-mail",
-          "url": "a",
-          "icon": "/images/icons/email.svg"
-        }
-      ],
-      "QRcode": "/images/users/tereza/terezaQRcode.png"
-    },
-    
-    {
-      "id": "3",
-      "name": "Marco Andrade",
-      "profilePicture": "/images/users/marco/marcoProfile.png",
-
-      "background": [
-        { "image": "" },
-        { "color": "#EB5E67" }
-      ],
-      "linkStyle": [
-        { "defaultColor": "#F1F1F1" },
-        { "hoverColor": "#D8565E" },
-        { "linkColor": "#010101" },
-        { "borderRadius": "16px" }
-      ],
-      "links": [
-        {
-          "title": "Blog",
-          "url": "a",
-          "icon": "images/icons/blog.svg"
-        },
-        {
-          "title": "GitLab",
-          "url": "a",
-          "icon": "/images/icons/gitlab.svg"
-        },
-        {
-          "title": "GitHub",
-          "url": "a",
-          "icon": "/images/icons/github.svg"
-        },
-        {
-          "title": "LinkedIn",
-          "url": "a",
-          "icon": "/images/icons/linkedin.svg"
-        },
-        {
-          "title": "Instagram",
-          "url": "a",
-          "icon": "/images/icons/instagram.svg"
-        },
-        {
-          "title": "Enviar um e-mail",
-          "url": "a",
-          "icon": "/images/icons/email.svg"
-        }
-      ],
-      "QRcode": "/images/users/marco/marcoQRcode.png"
-    }
-  ]
+    ]
 }
