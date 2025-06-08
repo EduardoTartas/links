@@ -28,11 +28,13 @@ if (data) {
     qrCode.src = data.qrCode || "default-qr.png";
 
     if (data.background) {
-        const bgImage = data.background.image ? `url(${data.background.image})` : "none";
-        container.style.boxShadow = `inset 0 0 0 2000px ${data.background.color || "rgba(0,0,0,0)"}`;
+        const { image, color, gradient } = data.background;
         
-        if (data.background.gradient) {
-            container.style.backgroundImage = `${data.background.gradient}${data.background.image ? `, ${bgImage}` : ''}`;
+        const bgImage = image ? `url(${image})` : "none";
+        container.style.boxShadow = `inset 0 0 0 2000px ${color || "rgba(0,0,0,0)"}`;
+        
+        if (gradient) {
+            container.style.backgroundImage = `${gradient}${image ? `, ${bgImage}` : ''}`;
         } else {
             container.style.backgroundImage = bgImage;
         }
