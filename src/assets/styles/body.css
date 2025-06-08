@@ -17,7 +17,7 @@ body {
     max-width: 480px;
     width: 90%;
     height: auto;
-    min-height: 650px;
+    min-height: 852px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,8 +54,8 @@ body {
 .links {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    width: 260px;
+    gap: 16px;
+    width: 300px;
     margin-bottom: 15px;
 }
 
