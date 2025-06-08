@@ -1,5 +1,5 @@
 body {
-    background: #cacaca;
+    background: linear-gradient(135deg, #f6f8fa 0%, #c8d0da 50%, #a3b0bf 100%);
     color: #222;
     margin: 0;
     font-family: 'Inter';
@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 
 .container {
     background: rgba(255, 255, 255, 0.35);
